@@ -1,0 +1,59 @@
+framework -> 
+		collection of design pattern
+		
+
+what is design pattern? 
+	common problem solution 
+	
+
+Signup.jsp -> data -> submit -> controller -> read , new bean , new dao -> 
+								dbConnection -> database 
+								preparedStatement -> pstmt 
+								 
+							1:servlet 
+							2:bean 
+							3:dao 
+							4:db
+							5:pstmt 
+							
+							500 request -> 	servlet(1)
+											bean(500)
+											dao(500)
+											db(500)
+											pstmt(500)	
+	
+Singleton design pattern -> class -> object -> 1 time -> single instance 
+XX
+XX
+XX
+	
+	
+	
+	
+	
+
+spring ->project-> 
+	file -> new -> spring starter project-> 
+
+
+dep:- 
+1)spring web 
+2)spring boot dev-tools 
+
+
+external->
+jsp -> tomcat embeded jasper -> dep 
+
+
+configuration->
+application.properties 
+
+#server
+server.port=9898
+
+#views
+spring.mvc.view.prefix=/WEB-INF/views/
+spring.mvc.view.suffix=.jsp
+
+how to create controller? 
+ 
