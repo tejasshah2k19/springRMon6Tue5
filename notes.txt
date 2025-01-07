@@ -56,4 +56,48 @@ spring.mvc.view.prefix=/WEB-INF/views/
 spring.mvc.view.suffix=.jsp
 
 how to create controller? 
+
+
+---------------------------------------------------------------------------------------------
+ 
+ 500 class -> singleton -> 
+ 
+ 	server start -> static -> load -> object -> 500
+ 	eager loading -> 
+ 	early binding ->
+ 	
+	when i use -> that time init -> 
+	 	Lazy Loading -> 
+ 
+ 
+---------------------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
