@@ -11,6 +11,16 @@ public class SessionController {
 		
 		return "Signup";//jsp name 
 	}
+	
+	@GetMapping("/")
+	public String root() {
+		return "Index";
+	}
+
+	@GetMapping("/login")
+	public String login() {
+		return "Login";//jsp name 
+	}
 }
 
  

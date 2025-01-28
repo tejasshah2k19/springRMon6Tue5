@@ -74,7 +74,11 @@ how to create controller?
  
  
  
- 
+1) add validation dep in pom.xml { add/edit starter}
+2) add annotation in bean 
+3) activate the validation using @Validated 
+4) catch the result of validation inside BindingResult 
+
  
  
  
