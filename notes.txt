@@ -80,6 +80,7 @@ how to create controller?
 4) catch the result of validation inside BindingResult 
 
  
+---------------------------------------------------------------------------------------------
  
  
  

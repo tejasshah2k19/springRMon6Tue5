@@ -6,7 +6,7 @@ public class RegistrationBean {
 
 	@NotBlank(message = "Please Enter FirstName")
 	private String firstName;
-
+	
 	@NotBlank(message = "Please Enter Email")
 	private String email;
 
