@@ -21,22 +21,22 @@
                             <!-- First Name -->
                             <div class="mb-3">
                                 <label for="firstName" class="form-label">First Name</label>
-                                <input type="text" class="form-control" id="firstName" name="firstName"  >
+                                <input type="text" class="form-control" id="firstName" name="firstName" value="${user.firstName}" >
                                <span class="text-danger"> ${result.getFieldError("firstName").getDefaultMessage()}</span>
                             </div>
 
                             <!-- Email -->
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="text" class="form-control" id="email" name="email"  >
-                                 ${result.getFieldError("email").getDefaultMessage()}
+                                <input type="text" class="form-control" id="email" name="email"  value="${user.email}" >
+                               <span class="text-danger">  ${result.getFieldError("email").getDefaultMessage()}</span>
                             </div>
 
                             <!-- Password -->
                             <div class="mb-3">
                                 <label for="password" class="form-label">Password</label>
                                 <input type="password" class="form-control" id="password" name="password"  >
-                                 ${result.getFieldError("password").getDefaultMessage()}
+                               <span class="text-danger">  ${result.getFieldError("password").getDefaultMessage()}</span>
                             </div>
 
                             <!-- Submit Button -->

@@ -82,11 +82,53 @@ how to create controller?
  
 ---------------------------------------------------------------------------------------------
  
+ spring framework : java : web 
  
+ hibernate : java : data base 
+ 					create table
+ 					alter table 
+ 					insert 
+ 					update 
+ 					delete 
+ 					select 
+ 					
+ how ? 
+ 	data base -> 
+ 					1) mysql driver 
+ 					2) spring-data-jpa 
+ 					
+ 					
+ 	application.properties 
+ 	
+	#database
+	spring.datasource.url=jdbc:mysql://localhost:3306/springmon6tue5
+	spring.datasource.username=root
+	spring.datasource.password=root
+	
+	#hibernate
+	spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+	spring.jpa.hibernate.ddl-auto=update
+	
+	spring.jpa.show-sql=true
+	spring.jpa.properties.hibernate.format_sql=true
+	 
  
+ ----------------------------------------------------------------------------------------
  
- 
- 
+database --> 
+		1) myslq connector / pg driver / oracle 
+		2) spring data jpa 
+		
+configuration ->
+		application.properties 
+		
+		
+		1 url
+		2 username 
+		3 password  
+		
+----------------------------------------------------------------------------------		
+		
  
  
  
