@@ -16,7 +16,8 @@ public class UserEntity {
 	private String firstName;
 	private String email;
 	private String password;
-
+	private String profilePicUrl;
+	
 	public Integer getUserId() {
 		return userId;
 	}
@@ -48,5 +49,14 @@ public class UserEntity {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
+	public String getProfilePicUrl() {
+		return profilePicUrl;
+	}
+
+	public void setProfilePicUrl(String profilePicUrl) {
+		this.profilePicUrl = profilePicUrl;
+	}
+	
 
 }
